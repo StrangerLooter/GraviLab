@@ -77,7 +77,7 @@ export const PhysicsAnalysis: React.FC<PhysicsAnalysisProps> = ({
           <div className="p-4 rounded-lg bg-space-950 border border-space-800 space-y-2">
             <span className="text-emerald-400 font-bold">4. Custom 4th-Order Runge-Kutta Step</span>
             <div className="text-slate-200 p-2 rounded bg-space-900 border border-space-800">
-              y_{'{n+1}'} = y_n + (dt/6) · (k1 + 2·k2 + 2·k3 + k4)
+              yₙ₊₁ = yₙ + (Δt / 6) · (k₁ + 2·k₂ + 2·k₃ + k₄)
             </div>
             <p className="text-[11px] text-slate-400 font-sans">
               The fourth-order RK4 integration scheme provides local truncation error O(dt⁵) and global truncation error O(dt⁴).

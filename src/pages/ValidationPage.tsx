@@ -39,7 +39,7 @@ export const ValidationPage: React.FC = () => {
             </h2>
           </div>
           <p className="text-xs text-slate-400 mt-1">
-            Comparative analysis between Custom Python RK4 numerical solver and authentic historical NASA JPL Horizons telemetry for the Voyager 1 Jupiter flyby (March 1979).
+            Comparative analysis between Custom TypeScript RK4 numerical solver and authentic historical NASA JPL Horizons telemetry for the Voyager 1 Jupiter flyby (March 1979).
           </p>
         </div>
 
