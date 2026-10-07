@@ -1,0 +1,62 @@
+[
+  {
+    "id": "earth",
+    "name": "Earth",
+    "mass_kg": 5.9722e24,
+    "radius_km": 6371.0,
+    "mu": 3.986004418e14,
+    "semi_major_axis_au": 1.0,
+    "orbital_speed_km_s": 29.78,
+    "orbital_period_days": 365.25,
+    "color": "#3B82F6",
+    "description": "Standard terrestrial gravity assist test body (e.g., Galileo and Cassini Earth flybys)."
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "mass_kg": 1.89813e27,
+    "radius_km": 69911.0,
+    "mu": 1.26686534e17,
+    "semi_major_axis_au": 5.2044,
+    "orbital_speed_km_s": 13.07,
+    "orbital_period_days": 4332.59,
+    "color": "#F59E0B",
+    "description": "The giant planet used by Voyager 1, Voyager 2, and New Horizons for dramatic slingshot velocity gains into the outer solar system."
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "mass_kg": 5.6834e26,
+    "radius_km": 58232.0,
+    "mu": 3.7931187e16,
+    "semi_major_axis_au": 9.5826,
+    "orbital_speed_km_s": 9.68,
+    "orbital_period_days": 10759.22,
+    "color": "#E2BF7D",
+    "description": "Ringed gas giant used for Titan shaping trajectories and Voyager 2 Uranus redirection."
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "mass_kg": 4.8675e24,
+    "radius_km": 6051.8,
+    "mu": 3.24859e14,
+    "semi_major_axis_au": 0.7233,
+    "orbital_speed_km_s": 35.02,
+    "orbital_period_days": 224.7,
+    "color": "#EC4899",
+    "description": "Dense terrestrial inner planet commonly utilized in VVEJGA multi-slingshot mission trajectories."
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "mass_kg": 6.4171e23,
+    "radius_km": 3389.5,
+    "mu": 4.282837e13,
+    "semi_major_axis_au": 1.5237,
+    "orbital_speed_km_s": 24.08,
+    "orbital_period_days": 686.98,
+    "color": "#EF4444",
+    "description": "Red planet used for Rosetta and Dawn velocity tweaks and orbital inclination adjustments."
+  }
+]

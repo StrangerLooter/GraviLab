@@ -1,0 +1,54 @@
+[
+  {
+    "id": "voyager1_jupiter",
+    "name": "Voyager 1 - Jupiter Gravity Assist (1979)",
+    "planet_id": "jupiter",
+    "description": "Historical encounter that boosted Voyager 1 into an interstellar hyperbolic escape trajectory, gaining ~11 km/s in heliocentric speed.",
+    "spacecraft_mass_kg": 815.0,
+    "initial_distance_factor": 80.0,
+    "impact_parameter_km": 680000.0,
+    "v_inf_km_s": 14.1,
+    "approach_angle_deg": 135.0,
+    "simulation_duration_days": 10.0,
+    "default_dt_sec": 60.0
+  },
+  {
+    "id": "earth_oberth_assist",
+    "name": "Galileo-Style Earth Gravity Assist",
+    "planet_id": "earth",
+    "description": "Classic terrestrial swingby passing ~1,000 km altitude to pump orbital aphelion outward toward Jupiter.",
+    "spacecraft_mass_kg": 1000.0,
+    "initial_distance_factor": 60.0,
+    "impact_parameter_km": 15000.0,
+    "v_inf_km_s": 8.9,
+    "approach_angle_deg": 120.0,
+    "simulation_duration_days": 4.0,
+    "default_dt_sec": 20.0
+  },
+  {
+    "id": "saturn_voyager2_redirection",
+    "name": "Saturn Flyby & Uranus Redirection",
+    "planet_id": "saturn",
+    "description": "Grand Tour maneuver using Saturn's gravity field to bend trajectory toward Uranus and Neptune.",
+    "spacecraft_mass_kg": 820.0,
+    "initial_distance_factor": 70.0,
+    "impact_parameter_km": 190000.0,
+    "v_inf_km_s": 10.5,
+    "approach_angle_deg": 140.0,
+    "simulation_duration_days": 12.0,
+    "default_dt_sec": 120.0
+  },
+  {
+    "id": "venus_pumper",
+    "name": "Venus Inner Solar System Assist",
+    "planet_id": "venus",
+    "description": "Inner planet slingshot used in Solar Orbiter and BepiColombo orbital shaping maneuvers.",
+    "spacecraft_mass_kg": 1200.0,
+    "initial_distance_factor": 50.0,
+    "impact_parameter_km": 12500.0,
+    "v_inf_km_s": 6.8,
+    "approach_angle_deg": 110.0,
+    "simulation_duration_days": 3.0,
+    "default_dt_sec": 15.0
+  }
+]
